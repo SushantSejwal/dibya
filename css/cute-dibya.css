@@ -1,0 +1,167 @@
+
+img {
+    pointer-events: none;
+}
+
+.what-special-today {
+    min-height: 95vh;
+    height: 100%;
+    max-height: auto;
+    /* background: #151515; */
+    background: #151515;
+    /* background-color: #fff; */
+    /* color: #f73558; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 10px;
+}
+
+.special-today-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 90vh; */
+    max-width: 700px;
+    width: 100%;
+    min-width: auto;
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(#dddddd, rgb(71, 71, 71));
+    background-size: 300% 100%;
+    background-position: 50% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.special-today-text h1 {
+    color: #ffffff;
+    font-size: clamp(3rem, 10vw, 5rem);
+    text-align: center;
+    font-family: 'Sushant', sans-serif;
+}
+
+.emoji-for-birthday {
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+.emoji-for-birthday img {
+    width: max-content;
+    max-width: 100%;
+    min-width: auto;
+    padding: 5px 5px;
+}
+
+/* happy birthday dibya */
+section.happy-birthday-dibya {
+    background: url('../drc/birthday/background/tt_bg.png'), #fbfbfd;
+    background-position: top left;
+    background-repeat: repeat;
+    padding: 40px;
+}
+
+/* text */
+.birthday-text {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.happy-birthday-container {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.birthday-text-heading-wrapper .birthday-text-heading {
+    font-family: 'birthday';
+    font-size: clamp(80px, 10vw, 140px);
+    line-height: 120%;
+    color: rgb(20, 20, 20);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.birthday-text-heading-wrapper,
+.birthday-text-extra-wrapper,
+.birthday-dibya-image,
+.dibya-name-wrapper{
+    opacity: 0;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    transition: opacity 0.8s ease-in-out, transform 0.7s ease-in-out;
+    -webkit-transition: opacity 0.8s ease-in-out, transform 0.7s ease-in-out;
+    -moz-transition: opacity 0.8s ease-in-out, transform 0.7s ease-in-out;
+    -ms-transition: opacity 0.8s ease-in-out, transform 0.7s ease-in-out;
+    -o-transition: opacity 0.8s ease-in-out, transform 0.7s ease-in-out;
+}
+.birthday-text-heading-wrapper.sushant_intersecting,
+.birthday-text-extra-wrapper.sushant_intersecting,
+.birthday-dibya-image.sushant_intersecting,
+.dibya-name-wrapper.sushant_intersecting{
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+.birthday-text-extra-wrapper .birthday-text-extra-para {
+    font-family: 'Sushant';
+    font-size: 20px;
+    word-spacing: 1px;
+    color: rgb(83, 83, 83);
+    font-weight: 700;
+    padding: 20px 10px;
+}
+
+
+.birthday-dibya-image {
+    text-align: center;
+    padding: 20px;
+}
+
+.birthday-dibya-img {
+    /* mix-blend-mode: multiply; */
+    max-width: 560px;
+    width: 100%;
+    min-width: auto;
+    box-shadow: 6px 10px 25px #d78787;
+}
+
+/* name */
+.dibya-name-wrapper {
+    text-align: center;
+    font-size: clamp(60px, 16vw, 120px);
+    font-family: 'Scriptorama';
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.dibya-name{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 50px 10px 10px 10px;
+}
+
+.dibya-name-span {
+    display: inline-block;
+    line-height: 70%;
+}
+
+.dibya-name-y {
+    height: clamp(80px, 10vw, 130px);
+    aspect-ratio: 1.39700904683437 / 1;
+}
+
+.dibya-birthday-audio-wrapper,
+.dibya-birthday-audio-wrapper audio{
+    width: 0px;
+    height: 0px;
+    pointer-events: none;
+}
