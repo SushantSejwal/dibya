@@ -1,4 +1,3 @@
-
 img {
     pointer-events: none;
 }
@@ -75,7 +74,7 @@ section.happy-birthday-dibya {
 
 .birthday-text-heading-wrapper .birthday-text-heading {
     font-family: 'birthday';
-    font-size: clamp(60px, 10vw, 140px);
+    font-size: clamp(70px, 12vw, 140px);
     line-height: 120%;
     color: rgb(20, 20, 20);
     padding: 20px 10px;
@@ -84,7 +83,7 @@ section.happy-birthday-dibya {
 
 .birthday-text-heading-wrapper,
 .birthday-text-extra-wrapper,
-.dibya-name-wrapper{
+.dibya-name-wrapper {
     opacity: 0;
     transform: translateY(20px);
     -webkit-transform: translateY(20px);
@@ -97,9 +96,10 @@ section.happy-birthday-dibya {
     -ms-transition: opacity 0.8s ease-in-out, transform 0.7s ease-in-out;
     -o-transition: opacity 0.8s ease-in-out, transform 0.7s ease-in-out;
 }
+
 .birthday-text-heading-wrapper.sushant_intersecting,
 .birthday-text-extra-wrapper.sushant_intersecting,
-.dibya-name-wrapper.sushant_intersecting{
+.dibya-name-wrapper.sushant_intersecting {
     opacity: 1;
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
@@ -108,7 +108,7 @@ section.happy-birthday-dibya {
     -o-transform: translateY(0px);
 }
 
-.birthday-dibya-image{
+.birthday-dibya-image {
     opacity: 0;
     transform: translateY(20px);
     -webkit-transform: translateY(20px);
@@ -122,7 +122,7 @@ section.happy-birthday-dibya {
     -o-transition: opacity 1s ease-in-out, transform 0.7s ease-in-out;
 }
 
-.birthday-dibya-image.sushant_intersecting{
+.birthday-dibya-image.sushant_intersecting {
     opacity: 1;
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
@@ -163,7 +163,7 @@ section.happy-birthday-dibya {
     text-transform: uppercase;
 }
 
-.dibya-name{
+.dibya-name {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -181,13 +181,18 @@ section.happy-birthday-dibya {
 }
 
 .dibya-birthday-audio-wrapper,
-.dibya-birthday-audio-wrapper audio{
+.dibya-birthday-audio-wrapper audio {
     width: 0px;
     height: 0px;
     pointer-events: none;
 }
 
 
-html{
+html {
     -webkit-tap-highlight-color: transparent;
+}
+
+.happy-birthday-square-braket {
+    display: inline-block;
+    /* margin-left: -8px; */
 }
