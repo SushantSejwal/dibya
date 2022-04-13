@@ -84,7 +84,6 @@ section.happy-birthday-dibya {
 
 .birthday-text-heading-wrapper,
 .birthday-text-extra-wrapper,
-.birthday-dibya-image,
 .dibya-name-wrapper{
     opacity: 0;
     transform: translateY(20px);
@@ -100,8 +99,30 @@ section.happy-birthday-dibya {
 }
 .birthday-text-heading-wrapper.sushant_intersecting,
 .birthday-text-extra-wrapper.sushant_intersecting,
-.birthday-dibya-image.sushant_intersecting,
 .dibya-name-wrapper.sushant_intersecting{
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+}
+
+.birthday-dibya-image{
+    opacity: 0;
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+    transition: opacity 1s ease-in-out, transform 0.7s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out, transform 0.7s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out, transform 0.7s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out, transform 0.7s ease-in-out;
+    -o-transition: opacity 1s ease-in-out, transform 0.7s ease-in-out;
+}
+
+.birthday-dibya-image.sushant_intersecting{
     opacity: 1;
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
@@ -145,13 +166,13 @@ section.happy-birthday-dibya {
 .dibya-name{
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: flex-start;
     padding: 50px 10px 10px 10px;
 }
 
 .dibya-name-span {
     display: inline-block;
-    line-height: 70%;
+    line-height: 80%;
 }
 
 .dibya-name-y {

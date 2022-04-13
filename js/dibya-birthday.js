@@ -18,10 +18,9 @@ nav_observer.observe(what_special_today);
 // Birthday Intersection observer	
 let happy_birthday_text = document.querySelector('.birthday-text-heading-wrapper');
 let dibya_my_friend = document.querySelector('.birthday-text-extra-wrapper');
-let dibya_img = document.querySelector('.birthday-dibya-image');
 let dibya_name_char = document.querySelector('.dibya-name-wrapper');
 
-let all_item_to_observe = [happy_birthday_text,dibya_my_friend,dibya_img,dibya_name_char];
+let all_item_to_observe = [happy_birthday_text,dibya_my_friend,dibya_name_char];
 
 let birthday_observer = new IntersectionObserver( (items) => {
 	items.forEach((item) => {
@@ -30,12 +29,30 @@ let birthday_observer = new IntersectionObserver( (items) => {
 		}
 	});
 },{
-	rootMargin: '-100px'
+	rootMargin: '-120px'
 });
 
 all_item_to_observe.forEach((item) =>{
 	birthday_observer.observe(item);
 })
+
+
+
+let dibya_img = document.querySelector('.birthday-dibya-image');
+
+let dibya_img_observer = new IntersectionObserver( (items) => {
+	items.forEach((item) => {
+		if (item.isIntersecting) {
+			item.target.classList.add('sushant_intersecting');
+		}
+	});
+},{
+	rootMargin: '-220px'
+});
+
+dibya_img_observer.observe(dibya_img);
+
+
 
 // playing birthday audio on dbclick
 let birthday_text_container = document.querySelector('.birthday-text-heading-wrapper');
@@ -54,6 +71,7 @@ birthday_text_container.addEventListener('dblclick', () => {
 		console.log(times_click_on_birthday_text)		
 	}
 });
+
 
 
 // Dibya name full form observer
@@ -80,3 +98,20 @@ dibya_name_letter.forEach((char) => {
 dibya_name_explanation.forEach((letter) => {
 	dibya_name_full_form_observer.observe(letter);
 });
+
+
+let dibya_beautiful_para = document.querySelector('.dibya-beautiful-para');
+let dibya_adorable_para = document.querySelector('.dibya-adorable-para-img');
+let dibya_beautiful_para_observer = new IntersectionObserver( (items) => {
+	items.forEach((item) => {
+		if (item.isIntersecting) {
+			item.target.classList.add('sushant_intersecting');
+		}
+	});
+},{
+	rootMargin: '-10px 0px -90px -10px',
+	threshold: 0.25
+});
+
+dibya_beautiful_para_observer.observe(dibya_beautiful_para);
+dibya_beautiful_para_observer.observe(dibya_adorable_para);
