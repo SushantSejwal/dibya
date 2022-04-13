@@ -75,7 +75,7 @@ section.happy-birthday-dibya {
 
 .birthday-text-heading-wrapper .birthday-text-heading {
     font-family: 'birthday';
-    font-size: clamp(80px, 10vw, 140px);
+    font-size: clamp(60px, 10vw, 140px);
     line-height: 120%;
     color: rgb(20, 20, 20);
     padding: 20px 10px;
@@ -185,4 +185,9 @@ section.happy-birthday-dibya {
     width: 0px;
     height: 0px;
     pointer-events: none;
+}
+
+
+html{
+    -webkit-tap-highlight-color: transparent;
 }

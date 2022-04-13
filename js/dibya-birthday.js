@@ -47,7 +47,8 @@ let dibya_img_observer = new IntersectionObserver( (items) => {
 		}
 	});
 },{
-	rootMargin: '-220px'
+	rootMargin: '-100px',
+	threshold: 0.3
 });
 
 dibya_img_observer.observe(dibya_img);
