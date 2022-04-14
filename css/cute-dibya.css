@@ -73,8 +73,8 @@ section.happy-birthday-dibya {
 }
 
 .birthday-text-heading-wrapper .birthday-text-heading {
-    font-family: 'birthday';
-    font-size: clamp(65px, 12vw, 140px);
+    font-family: 'birthday', 'birthday', 'birthday', 'birthday', 'Dessert-Script';
+    font-size: clamp(65px, 16vw, 140px);
     line-height: 120%;
     color: rgb(20, 20, 20);
     padding: 20px 10px;
