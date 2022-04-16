@@ -196,3 +196,12 @@ html {
     display: inline-block;
     /* margin-left: -8px; */
 }
+
+
+
+.cls-1 {
+    font-size: 34px;
+    fill: #c40416;
+    font-family: 'SFProDisplay-Heavy', 'SF Pro Display';
+    font-weight: 900;
+  }
