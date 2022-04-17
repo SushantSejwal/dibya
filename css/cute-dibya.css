@@ -204,4 +204,52 @@ html {
     fill: #c40416;
     font-family: 'SFProDisplay-Heavy', 'SF Pro Display';
     font-weight: 900;
-  }
+    transform: translate(-0.0001px, 63.2515px);
+    -webkit-transform: translate(-0.0001px, 63.2515px);
+    -moz-transform: translate(-0.0001px, 63.2515px);
+    -ms-transform: translate(-0.0001px, 63.2515px);
+    -o-transform: translate(-0.0001px, 63.2515px);
+    animation-name: dibya_name_y;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dibya_name_y {
+    0% {
+        transform: translate(-0.0001px, 63.2515px);
+        -webkit-transform: translate(-0.0001px, 63.2515px);
+        -moz-transform: translate(-0.0001px, 63.2515px);
+        -ms-transform: translate(-0.0001px, 63.2515px);
+        -o-transform: translate(-0.0001px, 63.2515px);
+    }
+    20% {
+        transform: translate(-0.0001px, 63.2515px);
+        -webkit-transform: translate(-0.0001px, 63.2515px);
+        -moz-transform: translate(-0.0001px, 63.2515px);
+        -ms-transform: translate(-0.0001px, 63.2515px);
+        -o-transform: translate(-0.0001px, 63.2515px);
+    }
+    50% {
+        transform: scale(1.05) translate(-0.984px, 60.2515px);
+        -webkit-transform: scale(1.05) translate(-0.984px, 60.2515px);
+        -moz-transform: scale(1.05) translate(-0.984px, 60.2515px);
+        -ms-transform: scale(1.05) translate(-0.984px, 60.2515px);
+        -o-transform: scale(1.05) translate(-0.984px, 60.2515px);
+}
+    80% {
+        transform: translate(-0.0001px, 63.2515px);
+        -webkit-transform: translate(-0.0001px, 63.2515px);
+        -moz-transform: translate(-0.0001px, 63.2515px);
+        -ms-transform: translate(-0.0001px, 63.2515px);
+        -o-transform: translate(-0.0001px, 63.2515px);
+    }
+    100% {
+        transform: translate(-0.0001px, 63.2515px);
+        -webkit-transform: translate(-0.0001px, 63.2515px);
+        -moz-transform: translate(-0.0001px, 63.2515px);
+        -ms-transform: translate(-0.0001px, 63.2515px);
+        -o-transform: translate(-0.0001px, 63.2515px);
+    }
+}

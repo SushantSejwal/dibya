@@ -76,7 +76,7 @@ dibya_name_char_y.innerHTML = `<svg id="Layer_1" data-name="Layer 1" xmlns="http
   </linearGradient>
 </defs>
 <g>
-  <text class="cls-1" transform="translate(-0.0001 63.2515)">RS</text>
+  <text class="cls-1">RS</text>
   <circle class="cls-2" cx="21.8029" cy="51.6426" r="14.5999"/>
   <path class="cls-3" d="M95.7119,115.2782a9.61,9.61,0,1,1-9.61-9.61h0A9.61,9.61,0,0,1,95.7119,115.2782Z" transform="translate(-64.2993 -63.6357)"/>
   <path class="cls-4" d="M87.711,115.2782a1.6087,1.6087,0,1,1-1.6089-1.6086,1.6087,1.6087,0,0,1,1.6089,1.6086Z" transform="translate(-64.2993 -63.6357)"/>
