@@ -227,9 +227,9 @@
     }
 }
 
-.dibya-logo {
+/* .dibya-logo {
     padding: 10px;
-}
+} */
 
 .dibya-logo-anchor {
     text-decoration: none;
@@ -246,7 +246,7 @@
     -ms-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     height: 100%;
-    width: 30px;
+    width: 45px;
 }
 
 .dibya-logo-anchor:hover {

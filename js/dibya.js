@@ -64,12 +64,12 @@ function dibya_navigation() {
             let amount = Math.floor(scrollY / 10);
             logo_wrapper.style.height = `calc(80px - ${amount}px)`;
             hamburger_wrapper.style.height = `calc(80px - ${amount}px)`;
-            let logo_anchor_width = ((scrollY / 3.4285714285714284) / 10); // because 24 / 3.4285714285714284 === 7
-            logo_anchor.style.width = `calc(30px - ${logo_anchor_width}px`;
+            let logo_anchor_width = ((scrollY / 6) / 10);
+            logo_anchor.style.width = `calc(45px - ${logo_anchor_width}px`;
         } else {
             logo_wrapper.style.height = `56px`;
             hamburger_wrapper.style.height = `56px`;
-            logo_anchor.style.width = '23px';
+            logo_anchor.style.width = '39px';
         }
 
     });
